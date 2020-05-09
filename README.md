@@ -1,7 +1,9 @@
-# api-rest-node
 
-Codigo de estudo de api rest em nodejs com express.
+# Codigo de estudo de api rest em nodejs com express.
+> Crud de usuarios e Login
 
-Utilizando banco de dados postgres e Sequelize para o CRUD,
-Bcrypt para criptografia dos passwords e 
-para acesso as rotas do crud é utilizada validação de token gerado por JsonWebToken
+## Pacotes utilizados
+** DB: ** Banco de dados postgres e Sequelize para o CRUD </br>
+** Sequelize: ** ORM para abstração de querys no banco relacional </br>
+** Bcrypt: ** Criptografia de passwords </br>
+** JsonWebToken: ** Gerador de token de acesso </br>
